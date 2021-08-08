@@ -1,0 +1,67 @@
+<!--miniprogram/pages/home/home.wxml-->
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}} " bindchange="bindchangeTag">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<h1>漳州金羽丰五金制品有限公司</h1>
+<text>
+  漳州金羽丰五金制品有限公司成立于2012年10月30日，位于专业的电镀产业园区——漳州市台商投资区龙池开发区联登五金厂区内，车间环境优美，距离厦门海沧仅5分钟路程。我司拥有两条全自动挂镀碱锌生产线，一条全自动锌镍合金生产线和一条半自动滚镀酸锌生产线，总共两千八百多平的宽敞生产车间及优良的办公环境，专业从事汽车配件、电子器件及小配件金属的电镀加工（金属表面处理）服务，拥有一批从事电镀行业三十多年的技术骨干，是一家从事产品研发、生产及市场拓展为一体的新型电镀企业。
+</text>
+<view style="display: flex; align-items: center;"> 
+  <image src="../image/兰锌.jpg" style="width: 45%;"/>
+  兰锌
+  <image src="../image/三价兰白锌.jpg" style="width: 45%;"/>
+  三价兰白锌
+</view>
+<view style="display: flex; align-items: center;"> 
+<image src="../image/锌镍-本色.jpg" style="width: 45%;"/>
+  锌镍-本色
+  <image src="../image/锌镍-彩锌.jpg" style="width: 45%;"/>
+  锌镍-彩锌
+</view>
+
+<view style="display: flex; align-items: center;"> 
+<image src="../image/锌镍-彩锌2.jpg" style="width: 45%;"/>
+  锌镍-彩锌
+  <image src="../image/锌镍-兰白.jpg" style="width: 45%;"/>
+  锌镍-兰白
+</view>
+
+<view style="display: flex; align-items: center;"> 
+<image src="../image/锌镍-本色2.jpg" style="width: 45%;"/>
+  锌镍-本色
+  <image src="../image/三价彩锌.jpg" style="width: 45%;"/>
+  三价彩锌
+</view>
+<text>
+  漳州金羽丰五金制品有限公司
+联系人：游学羿  13606040839            
+杨海花  18065759915
+漳州车间电话：0596-6862952        
+传      真：0596-6862852        
+地      址：漳州台商投资区龙池开发区龙骏路8号联登五金B栋二楼
+
+同安车间电话：0592-7237756        
+传      真：0592-7370765        
+地      址：厦门市同安区工业集中区集安路183号之三（欧士佩电镀厂）        
+QQ邮箱：374866282@qq.com
+</text>
+
+<map style="width: 100%; height: 20rem;" markers="{{allMarkers}}" latitude="{{latitude}}" longitude="{{longitude}}"> 
+  <cover-view slot="callout">
+        <block wx:for="{{customCalloutMarkerIds}}" wx:key="*this">
+          <cover-view  class="customCallout" marker-id="{{item}}" >
+          </cover-view>
+        </block>
+      </cover-view>
+
+</map>
+
+
+
+
+
