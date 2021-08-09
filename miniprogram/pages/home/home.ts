@@ -66,8 +66,8 @@ const allMarkers = [customCallout1, customCallout2]
 
 Page({
   data: {
-    latitude: 24.706142,
-    longitude: 118.120449,
+    latitude: 24.472576,
+    longitude: 117.941975,
     imgUrls: [
       '../image/jyf1.jpeg',
       '../image/jyf2.jpeg',
