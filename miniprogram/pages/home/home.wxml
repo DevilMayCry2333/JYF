@@ -37,6 +37,16 @@
   <image src="../image/三价彩锌.jpg" style="width: 45%;"/>
   三价彩锌
 </view>
+
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}} " bindchange="bindchangeTag">
+  <block wx:for="{{descUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+
 <text>
   漳州金羽丰五金制品有限公司
 联系人：游学羿  13606040839            

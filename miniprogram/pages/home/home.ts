@@ -72,6 +72,12 @@ Page({
       '../image/jyf1.jpeg',
       '../image/jyf2.jpeg',
     ],
+    descUrls: [
+      '../image/t1.jpg',
+      '../image/t2.jpg',
+      '../image/t3.jpg',
+      '../image/t4.jpg'
+    ],
     indicatorDots: true,
     autoplay: true,
     interval: 10000,
