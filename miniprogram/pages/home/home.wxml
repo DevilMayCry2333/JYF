@@ -12,29 +12,29 @@
   漳州金羽丰五金制品有限公司成立于2012年10月30日，位于专业的电镀产业园区——漳州市台商投资区龙池开发区联登五金厂区内，车间环境优美，距离厦门海沧仅5分钟路程。我司拥有两条全自动挂镀碱锌生产线，一条全自动锌镍合金生产线和一条半自动滚镀酸锌生产线，总共两千八百多平的宽敞生产车间及优良的办公环境，专业从事汽车配件、电子器件及小配件金属的电镀加工（金属表面处理）服务，拥有一批从事电镀行业三十多年的技术骨干，是一家从事产品研发、生产及市场拓展为一体的新型电镀企业。
 </text>
 <view style="display: flex; align-items: center;"> 
-  <image src="../image/兰锌.jpg" style="width: 45%;"/>
+  <image src="../image/lanxin.jpg" style="width: 45%;"/>
   兰锌
-  <image src="../image/三价兰白锌.jpg" style="width: 45%;"/>
+  <image src="../image/sjlanbaixin.jpg" style="width: 45%;"/>
   三价兰白锌
 </view>
 <view style="display: flex; align-items: center;"> 
-<image src="../image/锌镍-本色.jpg" style="width: 45%;"/>
+<image src="../image/xn-bs.jpg" style="width: 45%;"/>
   锌镍-本色
-  <image src="../image/锌镍-彩锌.jpg" style="width: 45%;"/>
+  <image src="../image/xn-cx.jpg" style="width: 45%;"/>
   锌镍-彩锌
 </view>
 
 <view style="display: flex; align-items: center;"> 
-<image src="../image/锌镍-彩锌2.jpg" style="width: 45%;"/>
+<image src="../image/xn-cx2.jpg" style="width: 45%;"/>
   锌镍-彩锌
-  <image src="../image/锌镍-兰白.jpg" style="width: 45%;"/>
+  <image src="../image/xn-lb.jpg" style="width: 45%;"/>
   锌镍-兰白
 </view>
 
 <view style="display: flex; align-items: center;"> 
-<image src="../image/锌镍-本色2.jpg" style="width: 45%;"/>
+<image src="../image/xn-bs2.jpg" style="width: 45%;"/>
   锌镍-本色
-  <image src="../image/三价彩锌.jpg" style="width: 45%;"/>
+  <image src="../image/sjcaixin.jpg" style="width: 45%;"/>
   三价彩锌
 </view>
 
